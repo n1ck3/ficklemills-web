@@ -1,0 +1,274 @@
+/* Global styles {*/
+    html {
+        height: 100%;
+        font-size: 12px;
+    }
+    body {
+        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        min-height: 100% !important;
+        height: 100% !important;
+        margin: 0px;
+        padding: 0px;
+        background-color: #eeeeee;
+    }
+    /* Text styles { */
+        .tiny {
+            font-size: 0.5em;
+        }
+        .small {
+            font-size: 0.9em;
+        }
+        .large {
+            font-size: 1.5em;
+        }
+        .huge {
+            font-size: 2.5em;
+        }
+        .center {
+            text-align: center;
+        }
+        .normal {
+            font-weight: normal;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .strikethrough {
+            text-decoration: line-through;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .red {
+            color: #cc0000;
+        }
+    /* } */
+    /* Positional styles { */
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+        .centered {
+            display: block;
+            margin: inherit auto;
+        }
+        .clear {
+            clear: both;
+        }
+    /* }*/
+/* }*/
+/* Index  { */
+    #wrapper {
+        display: block;
+        position: relative;
+        min-height: 100% !important;
+        height: 100% !important;
+        overflow: hidden;
+        margin: 0 auto -30px; /* the bottom margin is the negative value of the footer's height */
+    }
+    #footer, #push {
+        height: 30px; /* #push must be the same height as #footer */
+    }
+    #header {
+        margin-bottom: 75px;
+        width: 100%;
+        -moz-box-shadow: 10px 0px 40px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 10px 0px 40px rgba(0,0,0,0.7);
+        box-shadow: 10px 0px 40px rgba(0,0,0,0.7);
+    }
+    #footer {
+        color: #aaaaaa;
+        width: 960px;
+        margin: 0px auto;
+        line-height: 30px;
+        text-align: center;
+    }
+    #products_wrapper {
+        width: 960px;
+        margin: 0px auto;
+    }
+    .icon {
+        margin-left: 25px;
+        width: 128px;
+        height: 128px;
+        float: left;
+    }
+    .information {
+        margin-right: 25px;
+        width: 750px;
+        float: right;
+    }
+    .availability_wrapper .distributor {
+        position: relative;
+        display: block;
+    }
+    /* /1* Distributor Large { *1/ */
+    /*     .availability_wrapper { */
+    /*         margin: 4px 0px; */
+    /*         height: 50px; */
+    /*     } */
+    /*     .availability_wrapper .distributor { */
+    /*         margin-right: 5px; */
+    /*         height: 50px; */
+    /*         width: 150px; */
+    /*         float: left */
+    /*     } */
+    /*     .availability_wrapper .distributor:last-child { */
+    /*         margin-right: 0px; */
+    /*     } */
+    /*     .availability_Vwrapper .ios { */
+    /*         background-image: url(../img/ios_available_150x50.png); */
+    /*     } */
+    /*     .availability_wrapper .ios.soon { */
+    /*         background-image: url(../img/ios_unavailable_150x50.png); */
+    /*     } */
+    /*     .availability_wrapper .google-play { */
+    /*         background-image: url(../img/google-play_available_150x50.png); */
+    /*     } */
+    /*     .availability_wrapper .google-play.soon { */
+    /*         background-image: url(../img/google-play_unavailable_150x50.png); */
+    /*     } */
+    /*     .availability_wrapper .chrome { */
+    /*         background-image: url(../img/chrome_available_150x50.png); */
+    /*     } */
+    /*     .availability_wrapper .chrome.soon { */
+    /*         background-image: url(../img/chrome_unavailable_150x50.png); */
+    /*     } */
+    /*     .availability_wrapper div.banner, */
+    /*     .availability_wrapper div.banner { */
+    /*         position: absolute; */
+    /*         display: none; */
+    /*         top: -2px; */
+    /*         right: -2px; */
+    /*         width: 86px; */
+    /*         height: 42px; */
+    /*     } */
+    /*     .availability_wrapper .distributor.new div.banner { */
+    /*         background-image: url(../img/new_86x42.png); */
+    /*     } */
+    /*     .availability_wrapper .distributor.soon div.banner { */
+    /*         background-image: url(../img/soon_86x42.png); */
+    /*     } */
+    /*     .availability_wrapper .distributor.new div.banner, */
+    /*     .availability_wrapper .distributor.soon div.banner { */
+    /*         display: block; */
+    /*     } */
+    /* /1* } *1/ */
+    /* Distributor Medium { */
+        .availability_wrapper {
+            margin: 10px 0px 0px;
+            height: 38px;
+        }
+        .availability_wrapper .distributor {
+            margin-right: 5px;
+            height: 38px;
+            width: 113px;
+            float: left
+        }
+        .availability_wrapper .distributor:last-child {
+            margin-right: 0px;
+        }
+        .availability_wrapper .ios {
+            background-image: url(../img/ios_available_113x38.png);
+        }
+        .availability_wrapper .ios.soon {
+            background-image: url(../img/ios_unavailable_113x38.png);
+        }
+        .availability_wrapper .google-play {
+            background-image: url(../img/google-play_available_113x38.png);
+        }
+        .availability_wrapper .google-play.soon {
+            background-image: url(../img/google-play_unavailable_113x38.png);
+        }
+        .availability_wrapper .chrome {
+            background-image: url(../img/chrome_available_113x38.png);
+        }
+        .availability_wrapper .chrome.soon {
+            background-image: url(../img/chrome_unavailable_113x38.png);
+        }
+        .availability_wrapper div.banner,
+        .availability_wrapper div.banner {
+            position: absolute;
+            display: none;
+            top: -1px;
+            right: -1px;
+            width: 65px;
+            height: 32px;
+        }
+        .availability_wrapper .distributor.new div.banner {
+            background-image: url(../img/new_65x32.png);
+        }
+        .availability_wrapper .distributor.soon div.banner {
+            background-image: url(../img/soon_65x32.png);
+        }
+        .availability_wrapper .distributor.new div.banner,
+        .availability_wrapper .distributor.soon div.banner {
+            display: block;
+        }
+    /* } */
+    /* /1* Distributor Small { *1/ */
+    /*     .availability_wrapper { */
+    /*         margin: 20px 0px 0px; */
+    /*         height: 25px; */
+    /*     } */
+    /*     .availability_wrapper .distributor { */
+    /*         margin-right: 5px; */
+    /*         height: 25px; */
+    /*         width: 75px; */
+    /*         float: left */
+    /*     } */
+    /*     .availability_wrapper .distributor:last-child { */
+    /*         margin-right: 0px; */
+    /*     } */
+    /*     .availability_wrapper .ios { */
+    /*         background-image: url(../img/ios_available_75x25.png); */
+    /*     } */
+    /*     .availability_wrapper .ios.soon { */
+    /*         background-image: url(../img/ios_unavailable_75x25.png); */
+    /*     } */
+    /*     .availability_wrapper .google-play { */
+    /*         background-image: url(../img/google-play_available_75x25.png); */
+    /*     } */
+    /*     .availability_wrapper .google-play.soon { */
+    /*         background-image: url(../img/google-play_unavailable_75x25.png); */
+    /*     } */
+    /*     .availability_wrapper .chrome { */
+    /*         background-image: url(../img/chrome_available_75x25.png); */
+    /*     } */
+    /*     .availability_wrapper .chrome.soon { */
+    /*         background-image: url(../img/chrome_unavailable_75x25.png); */
+    /*     } */
+    /*     .availability_wrapper div.banner, */
+    /*     .availability_wrapper div.banner { */
+    /*         position: absolute; */
+    /*         display: none; */
+    /*         top: -1px; */
+    /*         right: -1px; */
+    /*         width: 43px; */
+    /*         height: 21px; */
+    /*     } */
+    /*     .availability_wrapper .distributor.new div.banner { */
+    /*         background-image: url(../img/new_43x21.png); */
+    /*     } */
+    /*     .availability_wrapper .distributor.soon div.banner { */
+    /*         background-image: url(../img/soon_43x21.png); */
+    /*     } */
+    /*     .availability_wrapper .distributor.new div.banner, */
+    /*     .availability_wrapper .distributor.soon div.banner { */
+    /*         display: block; */
+    /*     } */
+    /* /1* } *1/ */
+    .description {
+    }
+    /* FIDEUX */
+    #fideux .icon {
+        background-image: url(../img/fideux_128x1128.png);
+    }
+/* }*/
+
