@@ -1,11 +1,13 @@
 import os
-from flask import Flask
+from flask import Flask, render_template
+
+DEBUG = True
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'index!'
+    return render_template('index.html')
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
