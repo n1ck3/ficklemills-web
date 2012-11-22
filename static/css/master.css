@@ -200,6 +200,10 @@
     .qtip-titlebar {
         padding: 5px 10px !important;
     }
-    .qtip-title, .qtip-content {
+    .qtip.center .qtip-title, .qtip.center .qtip-content {
         text-align: center !important;
+    }
+    .qtip.wide {
+        min-width: 450px !important;
+        width: 450px !important;
     }
