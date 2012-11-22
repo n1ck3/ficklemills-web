@@ -5,8 +5,9 @@
     <title>Fickle Mills . Ever-changing software</title>
     <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="/static/css/master.css" rel="stylesheet" media="screen">
-    <link href="/static/css/master_1.css" rel="stylesheet" media="screen">
+    <link href="/static/css/qtip.css" rel="stylesheet" media="screen">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/static/js/jquery.qtip.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/master.js"></script>
   </head>
@@ -14,39 +15,56 @@
     <div id="wrapper">
         <img id="header" src="/static/img/header_3000x1500.png" alt="" />
         <div id="products_wrapper">
-            <div id="fideux" class="pruduct_wrapper">
-                <div class="icon left"></div>
-                <div class="information">
-                    <h1 class="heading
-                        left">Fi<span class="red">Deux</span>
-                    </h1>
-                    <div class="availability_wrapper right">
-                        <a href="http://goo.gl/GDKSY" target="_blank" class="distributor chrome new">
-                            <div class="banner"></div>
-                        </a>
-                        <div class="distributor ios soon">
-                            <div class="banner"></div>
-                        </div>
-                        <div class="distributor google-play soon">
-                            <div class="banner"></div>
-                        </div>
+            <h1>Projects</h1>
+            <div id="fideux" class="product">
+                <div class="left_panel">
+                    <div class="title">Fi<span class="red">Deux</div>
+                    <div class="logo_wrapper">
+                        <div class="logo"></div>
                     </div>
-                    <div class="clear"></div>
-                    <p class="description">
+                </div>
+                <div class="right_panel">
+                    <div class="information">
                         FiDeux is a GTD application that uses TeuxDeux as a
-                        backend. Currently, we have a Google Chrome extension.
-                        FiDeux for iOS and Android is underway, though. We are also
-                        looking into making a Firefox Add-on that may or may not be
-                        available in Q1 2012. Check back later. :)
-                    </p>
+                        backend. Head over to <a
+                            href="http://teuxdeux.com">http://deuxdeux.com</a>
+                        for more ingotmation about how this can help you
+                        getting things done!
+                    </div>
+                    <div class="availability">
+                        <a class="distributor" href="https://github.com/n1ck3/fideux-chrome" target="_blank"
+                            platform="github"
+                            q_title="GitHub"
+                            q_body="Fork this project on GitHub"
+                            ></a>
+                        <a class="distributor unavailable"
+                            platform="ios"
+                            q_title="AppStore"
+                            q_body="Coming in due time"
+                            ></a>
+                        <a class="distributor unavailable"
+                            platform="android"
+                            q_title="Google Play"
+                            q_body="Coming soon"
+                            ></a>
+                        <a class="distributor" href="http://goo.gl/GDKSY" target="_blank"
+                            platform="chrome"
+                            q_title="Chrome Web Store"
+                            q_body="Get it now!"
+                            ></a>
+                    </div>
                 </div>
             </div>
             <div class="clear"></div>
         </div>
         <div id="push"></div>
     </div>
+    <div class="clear"></div>
     <div id="footer">
-        <span class="small bold">Fickle Mills &copy; 2012</span>
+        <span class="small bold">
+            Fickle Mills &copy; 2012 |
+            <a href="mailto:info@ficklemills.com">inf@ficklemills.com</a>
+        </span>
     </div>
   </body>
 </html>
