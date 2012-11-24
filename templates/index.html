@@ -1,92 +1,149 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-  <head>
-    <title>Fickle Mills . Ever-changing software</title>
-    <link rel="shortcut icon" href="/static/img/favicon.ico" />
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/static/css/master.css" rel="stylesheet" media="screen">
-    <link href="/static/css/qtip.css" rel="stylesheet" media="screen">
-    <script src="/static/js/jquery.js"></script>
-    <script src="/static/js/jquery.qtip.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/master.js"></script>
-  </head>
-  <body>
-    <div id="wrapper">
-        <img id="header" src="/static/img/header_3000x1500.png" alt="" />
-        <div id="products_wrapper">
-            <h1>Projects</h1>
-            <div id="fideux" class="product">
-                <div class="left_panel">
-                    <div class="title">fi<span class="red">Deux</div>
-                    <div class="logo_wrapper">
-                        <div class="logo"></div>
-                    </div>
-                </div>
-                <div class="right_panel">
-                    <div class="information right">
-                        fiDeux in an intuitive, easy-to-use GTD application
-                        that helps you focus on what you need to accomplish
-                        today! Unfinished tasks are automatically forwarded to
-                        the next day.
-                        <br /><br />
-                        fiDeux is is built on the TeuxDeux API. Check out
-                        <a href="http://teuxdeux.com" target="_blank">
-                            http://teuxdeux.com</a>
-                        for more information.
-                    </div>
-                    <div class="availability">
-                        <!-- <a class="distributor" href="https://github.com/n1ck3/fideux-chrome" target="_blank" -->
-                        <!--     platform="github" -->
-                        <!--     q_title="GitHub" -->
-                        <!--     q_body="Fork this project on GitHub" -->
-                        <!--     ></a> -->
-                        <a class="distributor unavailable"
-                            platform="android"
-                            q_title="Google Play"
-                            q_body="Coming soon"
-                            ></a>
-                        <a class="distributor unavailable"
-                            platform="ios"
-                            q_title="App Store"
-                            q_body="Coming soon"
-                            ></a>
-                        <a class="distributor" href="http://goo.gl/GDKSY" target="_blank"
-                            platform="chrome"
-                            q_title="Chrome Web Store"
-                            q_body="Get it now!"
-                            ></a>
-                    </div>
-                </div>
+    <head>
+        <title>Fickle Mills . Ever-changing software</title>
+        <link rel="shortcut icon" href="/static/img/favicon.ico" />
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/master.css" rel="stylesheet" media="screen">
+        <link href="/static/css/qtip.css" rel="stylesheet" media="screen">
+        <script src="/static/js/jquery.js"></script>
+        <script src="/static/js/jquery.qtip.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/master.js"></script>
+    </head>
+    <body>
+
+        <div id="donations">
+            <div id="pledge"></div>
+            <div id="flattr">
+                <div id="flattr_button"></div>
             </div>
-            <div class="clear"></div>
+
+            <div id="paypal">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="WW4LVXUM9QZ8S">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/sv_SE/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
         </div>
-        <div id="push"></div>
-    </div>
-    <div class="clear"></div>
-    <div id="footer">
-        <span class="small bold">
-            <a id="terms">Terms of service</a> |
-            <a href="mailto:info@ficklemills.com">inf@ficklemills.com</a> |
-            Fickle Mills &copy; 2012
-        </span>
-    </div>
-  </body>
 
-   <script type="text/javascript">
+        <div id="wrapper">
+            <img id="header" src="/static/img/header_3000x1500.png" alt="" />
+            <div id="products_wrapper">
 
-     var _gaq = _gaq || [];
-     _gaq.push(['_setAccount', 'UA-36529244-1']);
-     _gaq.push(['_setDomainName', 'ficklemills.com']);
-     _gaq.push(['_trackPageview']);
 
-     (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-     })();
+                <h1>Projects</h1>
+                <div id="fideux" class="product">
+                    <div class="left_panel">
+                        <div class="title">fi<span class="red">Deux</div>
+                        <div class="logo_wrapper">
+                            <div class="logo"></div>
+                        </div>
+                    </div>
+                    <div class="right_panel">
+                        <div class="information right">
+                            fiDeux in an intuitive, easy-to-use GTD application
+                            that helps you focus on what you need to accomplish
+                            today! Unfinished tasks are automatically forwarded to
+                            the next day.
+                            <br /><br />
+                            fiDeux is is built on the TeuxDeux API. Check out
+                            <a href="http://teuxdeux.com" target="_blank">
+                                http://teuxdeux.com</a>
+                            for more information.
+                        </div>
+                        <div class="availability">
+                            <!-- <a class="distributor" href="https://github.com/n1ck3/fideux-chrome" target="_blank" -->
+                            <!--     platform="github" -->
+                            <!--     q_title="GitHub" -->
+                            <!--     q_body="Fork this project on GitHub" -->
+                            <!--     ></a> -->
+                            <a class="distributor unavailable"
+                                platform="android"
+                                q_title="Google Play"
+                                q_body="Coming soon"
+                                ></a>
+                            <a class="distributor unavailable"
+                                platform="ios"
+                                q_title="App Store"
+                                q_body="Coming soon"
+                                ></a>
+                            <a class="distributor" href="http://goo.gl/GDKSY" target="_blank"
+                                platform="chrome"
+                                q_title="Chrome Web Store"
+                                q_body="Get it now!"
+                                ></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="clear"></div> -->
+            </div>
+            <!-- <div class="clear"></div> -->
+            <div id="push"></div>
+            <!-- <div class="clear"></div> -->
+        </div>
+        <div class="clear"></div>
+        <div id="footer">
+            <div class="clear"></div>
+            <div id="footer_text" class="small bold">
+                <a id="terms">Terms of service</a> |
+                <a href="mailto:info@ficklemills.com">inf@ficklemills.com</a> |
+                Fickle Mills &copy; 2012
+            </div>
 
-   </script>
+
+
+        </div>
+    </body>
+
+    <!-- Flattr async -->
+    <!-- <script type="text/javascript" src="http://api.flattr.com/js/0.6/load.js"></script> -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        (function() {
+            var s = document.createElement('script');
+            var t = document.getElementsByTagName('script')[0];
+
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//api.flattr.com/js/0.6/load.js';
+
+            t.parentNode.insertBefore(s, t);
+        })();
+        /* ]]> */
+    </script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+
+        window.onload = function() {
+            var button = {
+                'uid': 'ficklemills',
+                'url': 'http://www.ficklemills.com',
+                'title': 'Ficklemills website',
+                'description': 'Site wide',
+            };
+            FlattrLoader.render(button, 'flattr_button', 'replace');
+        };
+        /* ]]> */
+    </script>
+
+    <!-- Google Analytics async -->
+    <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36529244-1']);
+            _gaq.push(['_setDomainName', 'ficklemills.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+    </script>
 
 </html>
