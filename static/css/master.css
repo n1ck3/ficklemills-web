@@ -95,7 +95,7 @@
     }
     #header {
         margin-bottom: 70px;
-        min-width: 960px;
+        min-width: 480px;
         width: 100%;
         -moz-box-shadow: 10px 0px 40px rgba(0,0,0,0.7);
         -webkit-box-shadow: 10px 0px 40px rgba(0,0,0,0.7);
